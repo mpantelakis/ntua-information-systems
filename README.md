@@ -6,6 +6,8 @@ This document provides a comprehensive guide to setting up and benchmarking a Pr
 
 The goal is to reproduce the experimental setup used in our project and provide ready-to-use scripts and queries for benchmarking PrestoDB in a distributed environment.
 
+---
+
 ## Project Contributors
 
 The members of the team behind this project are:
@@ -13,6 +15,8 @@ The members of the team behind this project are:
 - [Giannis Dimoulas](https://github.com/MastroGiannis)
 - [Enrica Iliana Maggiori](https://github.com/ilianamaggiori)
 - [Manolis Pantelakis](https://github.com/mpantelakis)
+
+- ---
 
 # Contents
 
@@ -423,12 +427,12 @@ Edit the following line:
 sudo systemctl restart mongodb
 ```
 
+---
+
 ## TPC-DS
 
 For our project, we used a **corrected version** of TPC-DS v2.4, which can be found here: [databricks/tpcds-kit](https://github.com/databricks/tpcds-kit).  
 The most recent official version (v3.0) caused **compilation issues** that we could not overcome.
-
----
 
 ### Generate Data
 
@@ -474,8 +478,6 @@ Each script requires editing a few paths before execution. Additionally, you can
 
 - All **required scripts** are located in the [`scripts`](./scripts) directory of the repository.
 - All **supporting folders and files** are provided under the [`tpc-ds`](./tpc-ds) directory of the repository.
-
----
 
 #### PostgreSQL
 
