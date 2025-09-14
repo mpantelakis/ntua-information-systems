@@ -4,7 +4,7 @@
 
 This document provides a comprehensive guide to setting up and benchmarking a PrestoDB cluster with PostgreSQL, Cassandra, and MongoDB as data sources. It covers installing and configuring PrestoDB and the database systems, generating and loading TPC-DS data, and executing queries to evaluate performance across different data distributions.
 
-The goal is to reproduce the experimental setup used in the project and provide ready-to-use scripts and queries for benchmarking PrestoDB in a distributed environment.
+The goal is to reproduce the experimental setup used in our project and provide ready-to-use scripts and queries for benchmarking PrestoDB in a distributed environment.
 
 ## Project Contributors
 
