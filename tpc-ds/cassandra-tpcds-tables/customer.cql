@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS tpcds.customer (
+    c_customer_sk int,
+    c_customer_id text,
+    c_current_cdemo_sk int,
+    c_current_hdemo_sk int,
+    c_current_addr_sk int,
+    c_first_shipto_date_sk int,
+    c_first_sales_date_sk int,
+    c_salutation text,
+    c_first_name text,
+    c_last_name text,
+    c_preferred_cust_flag text,
+    c_birth_day int,
+    c_birth_month int,
+    c_birth_year int,
+    c_birth_country text,
+    c_login text,
+    c_email_address text,
+    c_last_review_date_sk int,
+    PRIMARY KEY (c_customer_sk)
+);
