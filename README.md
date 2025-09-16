@@ -61,7 +61,7 @@ The members of the team behind this project are:
 
 For the purposes of the project, we set up a PrestoDB cluster as shown in the following graph:
 
-![PrestoDB Cluster Architecture](report/figures/cluster_topology.png)
+![PrestoDB Cluster Architecture](docs/figures/cluster_topology.png)
 
 The cluster requires **two host PCs**:
 
