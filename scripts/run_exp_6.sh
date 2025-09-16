@@ -15,8 +15,8 @@ echo
 # Define the group of queries to be executed
 queries=(
     "query_01 query_02 query_07 query_14 query_15 query_16 query_20 query_23 query_32"
-    #"query_05 query_08 query_12 query_13 query_17 query_21 query_22 query_24 query_39 query_94"
-    #"query_03 query_04 query_06 query_09 query_10 query_30 query_37 query_48 query_49"
+    "query_05 query_08 query_12 query_13 query_17 query_21 query_22 query_24 query_39 query_94"
+    "query_03 query_04 query_06 query_09 query_10 query_30 query_37 query_48 query_49"
 )
 
 # Define the output CSV file

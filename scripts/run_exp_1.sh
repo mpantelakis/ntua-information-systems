@@ -5,12 +5,12 @@
 QUERIES_DIR=~/tpc-ds/tpcds-queries/no-distribution-applied
 COORDINATOR_IP=<your-coordinator-ip>
 
-# Define the benchmark name
+# Define the database system name
 if [ -z "$1" ]; then
-    echo "Usage: $0 <benchmark_name> [postgresql, cassandra, mongodb]"
+    echo "Usage: $0 <database_system> [postgresql, cassandra, mongodb]"
     exit 1
 elif [[ "$1" != "postgresql" && "$1" != "cassandra" && "$1" != "mongodb" ]]; then
-    echo "Error: Invalid benchmark name. Please use 'postgresql', 'cassandra', or 'mongodb'."
+    echo "Error: Invalid database system name. Please use 'postgresql', 'cassandra', or 'mongodb'."
     exit 1
 else
     if [ "$1" == "postgresql" ]; then

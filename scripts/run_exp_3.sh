@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script runs experiment 2 for Analysis & Design of Information Systems 2024-2025.
+# This script runs experiment 3 for Analysis & Design of Information Systems 2024-2025.
 
 QUERIES_DIR=~/tpc-ds/tpcds-queries/distribution-method-2
 COORDINATOR_IP=<your-coordinator-ip>
